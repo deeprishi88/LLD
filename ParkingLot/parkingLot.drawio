@@ -1,0 +1,220 @@
+<mxfile host="Electron" modified="2024-06-24T10:47:02.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="UzjycTLFqyhP9T8NyTAQ" version="24.5.3" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1036" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-46" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-1" target="Sljgs2jRczQRL4o5M7uD-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-1" value="Parking Spot (Class)&lt;br&gt;&lt;ul&gt;&lt;li&gt;int id&lt;/li&gt;&lt;li&gt;bool isEmpty&lt;/li&gt;&lt;li&gt;int price&lt;/li&gt;&lt;li&gt;vehicle v&lt;hr&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;parkVehicle( Vehicle v)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;removeVehicle()&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="600" y="159" width="201" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-23" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-24" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-2" target="Sljgs2jRczQRL4o5M7uD-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-2" value="Two Wheeler Spot&lt;br&gt;&lt;ul&gt;&lt;li&gt;override - price&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="570" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-25" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.718;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-3" target="Sljgs2jRczQRL4o5M7uD-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-3" value="Four Wheeler Spot&lt;br&gt;&lt;ul&gt;&lt;li&gt;override - price&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="700" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-10" target="Sljgs2jRczQRL4o5M7uD-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-10" value="Parking Spot manager (class)&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;List&amp;lt;ParkingSpot&amp;gt; list&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Constructor() {&lt;/span&gt;this.list = list}&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li&gt;&lt;hr style=&quot;background-color: initial;&quot;&gt;findParkingSpot()&lt;/li&gt;&lt;li&gt;addParkingSpot()&lt;/li&gt;&lt;li&gt;removeParkingSpot()&lt;/li&gt;&lt;li&gt;parkVehicle(Vehicle v)&lt;/li&gt;&lt;li&gt;removeVehicle()&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="161" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-28" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.178;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-26" target="Sljgs2jRczQRL4o5M7uD-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-43" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-26" target="Sljgs2jRczQRL4o5M7uD-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-26" value="Two wheeler manager&lt;br&gt;&lt;br&gt;- List&amp;lt;parkingspot&amp;gt; list&lt;br&gt;- ParkingStrategy ps&lt;br&gt;- Constructor() { super(list, ps) &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="270" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-29" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.63;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-27" target="Sljgs2jRczQRL4o5M7uD-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-44" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-27" target="Sljgs2jRczQRL4o5M7uD-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-27" value="Four wheeler manager&lt;br&gt;- List&amp;lt;parkingspot&amp;gt; list&lt;br&gt;- ParkingStrategy ps&lt;br&gt;- Consructor() {&lt;br&gt;super(list,ps)&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="430" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-30" value="Parking Strategy" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="585" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-36" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.145;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-31" target="Sljgs2jRczQRL4o5M7uD-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-31" value="Near to entrance&lt;br&gt;- find()" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="260" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-37" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-32" target="Sljgs2jRczQRL4o5M7uD-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-32" value="Near to entrance and elevator&lt;br&gt;- find()" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="410" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-38" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-33" target="Sljgs2jRczQRL4o5M7uD-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-33" value="deafult&lt;br&gt;- find()" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="550" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-45" value="Vehicle (class)&lt;br&gt;- int vehicleNumber&lt;br&gt;- Enum vehicleType" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="620" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-61" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.018;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-60" target="Sljgs2jRczQRL4o5M7uD-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-62" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.165;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-60" target="Sljgs2jRczQRL4o5M7uD-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-60" value="Ticket (class)&lt;br&gt;- long entrytime&lt;br&gt;- Vehicle v&lt;br&gt;- ParkingSpot ps" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="340" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-64" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-63" target="Sljgs2jRczQRL4o5M7uD-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-63" value="Parking Spot Manager Factory&lt;br&gt;- get ParkingSpotManager(vehicleType) {&lt;br&gt;on vehicle type basis return PSM object&amp;nbsp;&lt;br&gt;}" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="99" y="200" width="161" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-66" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.332;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-65" target="Sljgs2jRczQRL4o5M7uD-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-67" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.013;entryY=0.365;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-65" target="Sljgs2jRczQRL4o5M7uD-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-65" value="EntranceGate (class)&lt;br&gt;- PSM Factory obj&lt;br&gt;- PS Manager obj&lt;br&gt;- Ticket obj&lt;br&gt;&lt;hr&gt;-&amp;nbsp; findParkingSpot(vehicleType, gateNumber)&lt;br&gt;- parkingSlot = parkVehicle(vehicle)&lt;br&gt;- generateTicket(vehicle, parkingSlot)&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="-230" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-68" value="Pricing Strategy&lt;br&gt;- Price(Ticket) {&lt;br&gt;return ParkingSlotPrice;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="629" y="-620" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-72" style="edgeStyle=none;shape=flexArrow;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-70" target="Sljgs2jRczQRL4o5M7uD-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-70" value="Hourly Pricing Strategy&lt;br&gt;- price(Ticket) {&lt;br&gt;hours*ParkingSlotPrice&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="520" y="-510" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-73" style="edgeStyle=none;shape=flexArrow;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-71" target="Sljgs2jRczQRL4o5M7uD-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-71" value="Minutes Pricing Strategy&lt;br&gt;- price(Ticket) {&lt;br&gt;minutes*ParkingSlotPrice&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="670" y="-510" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-79" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-74" target="Sljgs2jRczQRL4o5M7uD-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-74" value="Cost Computator&lt;br&gt;- PricingStrategy obj&lt;br&gt;&lt;hr&gt;- Price() {&lt;br&gt;obj.price&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="285" y="-470" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-75" style="edgeStyle=none;shape=flexArrow;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-76" target="Sljgs2jRczQRL4o5M7uD-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-76" value="two wheeler CC&lt;br&gt;- constructor() {&lt;br&gt;super(hourlyPricingStrategy)" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="150" y="-350" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-77" style="edgeStyle=none;shape=flexArrow;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-78" target="Sljgs2jRczQRL4o5M7uD-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-78" value="Four wheeler CC&lt;br&gt;- constructor() {&lt;br&gt;super(minutesPricingStrategy)" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="-350" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-81" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-80" target="Sljgs2jRczQRL4o5M7uD-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-80" value="Cost Computator Factory&lt;br&gt;- getCostComputator(Ticket) {&lt;br&gt;on vehicle type basis return cc object&lt;br&gt;}" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="590" y="-410" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-86" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.873;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-87" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-89" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551.25" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-91" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.565;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-97" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-92" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-98" style="edgeStyle=none;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-82" value="ExitGate (Class)&lt;br&gt;- ParkingSpotManagerFactory obj&lt;br&gt;- ParkingSpotManager obj&lt;br&gt;- Ticket obj&lt;br&gt;- CostComputator obj&lt;br&gt;- Payment obj&lt;br&gt;&lt;hr&gt;- priceCalculation() //basis of cc&lt;br&gt;- payment() //design same as cc&lt;br&gt;- removeVehicle()" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="414" y="-210" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-84" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;jumpStyle=sharp;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.122;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-76" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="-250" as="sourcePoint" />
+            <mxPoint x="420" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-85" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;jumpStyle=sharp;entryX=0.653;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-78" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="-220" as="sourcePoint" />
+            <mxPoint x="276.25" y="-270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-92" value="Payment&amp;nbsp;&lt;br&gt;(design same as cc)" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="670" y="-210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-95" style="edgeStyle=none;shape=flexArrow;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.073;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-93" target="Sljgs2jRczQRL4o5M7uD-92" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-93" value="Payment type1" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="640" y="-122.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-96" style="edgeStyle=none;shape=flexArrow;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-94" target="Sljgs2jRczQRL4o5M7uD-92" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-94" value="Payment type2" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="727" y="-122.5" width="73" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-99" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;jumpStyle=sharp;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.978;exitY=0.572;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-93" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="-107" as="sourcePoint" />
+            <mxPoint x="390" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sljgs2jRczQRL4o5M7uD-101" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;jumpStyle=sharp;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.934;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Sljgs2jRczQRL4o5M7uD-82" target="Sljgs2jRczQRL4o5M7uD-94" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="-100" as="sourcePoint" />
+            <mxPoint x="390" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdXRezabCUbFyYPbculg-0" value="Parking Lot Design UML" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="-835" width="280" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
