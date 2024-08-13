@@ -1,0 +1,66 @@
+<mxfile host="Electron" modified="2024-07-15T20:39:11.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="fd6GK5OBPLPIWaSh9Wei" version="24.5.3" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1036" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="PChjOO2R9hpInjpi-8NE-0" value="PlayingPiece&lt;hr&gt;PieceType type;&lt;div&gt;PlayingPiece(PieceType type){&lt;/div&gt;&lt;div&gt;this.type = type;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-1" value="PieceType enum&lt;hr&gt;X,&lt;div&gt;O;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PChjOO2R9hpInjpi-8NE-0" target="PChjOO2R9hpInjpi-8NE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-3" value="Piece X&lt;hr&gt;Constructor(){&lt;div&gt;super()&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="200" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-4" value="Piece O&lt;hr&gt;Constructor(){&lt;div&gt;super()&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="200" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PChjOO2R9hpInjpi-8NE-3" target="PChjOO2R9hpInjpi-8NE-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PChjOO2R9hpInjpi-8NE-4" target="PChjOO2R9hpInjpi-8NE-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="445" y="210" as="sourcePoint" />
+            <mxPoint x="433" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PChjOO2R9hpInjpi-8NE-7" target="PChjOO2R9hpInjpi-8NE-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-7" value="Board&lt;hr&gt;int size;&lt;div&gt;PlayingPiece[][] board;&lt;/div&gt;&lt;div&gt;void addPiece();&lt;/div&gt;&lt;div&gt;getfreecells();&lt;/div&gt;&lt;div&gt;printBoard();&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PChjOO2R9hpInjpi-8NE-9" target="PChjOO2R9hpInjpi-8NE-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-9" value="Player&lt;hr&gt;string name;&lt;div&gt;PlayingPiece piece;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PChjOO2R9hpInjpi-8NE-11" target="PChjOO2R9hpInjpi-8NE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="388" />
+              <mxPoint x="40" y="63" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PChjOO2R9hpInjpi-8NE-11" target="PChjOO2R9hpInjpi-8NE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-11" value="Tic-Tac-Toe&lt;hr&gt;List&amp;lt;Player&amp;gt; players;&lt;div&gt;Board board;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="360" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PChjOO2R9hpInjpi-8NE-14" value="Tic-Tac-Toe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="-30" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
